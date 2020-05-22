@@ -2,7 +2,7 @@ import os
 
 contact = input("Enter contact name: ")
 body = input("Enter message: ")
-cmd = "osascript -e 'tell application \"Messages\" to send \""+str(body)+"\" to buddy \""+str(contact)+"\"\'"
+cmd = f"osascript -e 'tell application \"Messages\" to send \"{body}\" to buddy \"{contact}\"'"
 
 os.system(cmd)
 
