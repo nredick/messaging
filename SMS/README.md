@@ -18,5 +18,5 @@ This repository contains requirement.txt and the messenging script.
 
 - sms_msg.py 
 
--requirements.txt
+- requirements.txt
 
