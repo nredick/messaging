@@ -1,5 +1,6 @@
 # Local
-sms_config.py
+SMS/sms_config*
+Pipfile
 
 # macOS
 .DS_Store
