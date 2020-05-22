@@ -7,7 +7,7 @@ Bare-bones script for sending SMS messages in the US & Canada.
 The script runs locally from the terminal/command line. 
 
 To utilize the script, clone the repository to your local machine. Install all packages 
-from requirements.txt
+from requirements.txt. Then, create a file named 'sms_config.py' with two global variables email and pas:
 
 Works with a gmail address. You will need to create a 16-digit Google 'App Password' to use instead of your normal gmail password. More info at https://support.google.com/accounts/answer/185833
 ```
