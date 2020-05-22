@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 # create sms_config for login data. necessary to create a 16 char google "app password" to replace generic email password.
 
 email = sms_config.email
-pas = sms_config.pas
+pas = sms_config.secret
 sms_gateway = str(input("Recipient phone number (10-digits, US & Canada): ")) +'@vtext.com'
 
 # Email server and smtp
