@@ -1,4 +1,4 @@
-# Simple SMS messenging script!
+# Simple SMS messaging script!
 Bare-bones script for sending SMS messages in the US & Canada.
 
 
