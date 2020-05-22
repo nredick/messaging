@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 
 email = sms_config.email
 pas = sms_config.pas
-sms_gateway = str(raw_input("Recipient phone number (10-digits, US & Canada): ")) +'@vtext.com'
+sms_gateway = str(input("Recipient phone number (10-digits, US & Canada): ")) +'@vtext.com'
 
 # Email server and smtp
 smtp = "smtp.gmail.com" 
@@ -28,15 +28,15 @@ msg['To'] = sms_gateway
 
 while(True):
 	# sms message body
-	body = raw_input("Enter SMS message: ")
+	body = input("Enter SMS message: ")
 
 	# send sms msg 
 	server.sendmail(email, sms_gateway, body)
 	
-	if (str(raw_input("Send another message? (y/n): ")).lower() == 'n'):
+	if (str(input("Send another message? (y/n): ")).lower() == 'n'):
 		break
-	elif (str(raw_input("Change recipient? (y/n): ")).lower() == 'y'):
-		sms_gateway = str(raw_input("Recipient phone number (10-digits, US & Canada): ")) +'@vtext.com'
+	elif (str(input("Change recipient? (y/n): ")).lower() == 'y'):
+		sms_gateway = str(input("Recipient phone number (10-digits, US & Canada): ")) +'@vtext.com'
 
 # quit the server
 server.quit()
