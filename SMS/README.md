@@ -17,7 +17,7 @@ python sms_msg.py
 
 ## Repository Organization
 
-This repository contains requirement.txt and the messenging script. 
+This repository contains requirement.txt and the messaging script. 
 
 - sms_msg.py 
 
