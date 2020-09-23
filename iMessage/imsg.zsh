@@ -1,1 +1,0 @@
-osascript -e 'tell application "Messages" to send "<testing>" to buddy "Nathalie Redick"'
